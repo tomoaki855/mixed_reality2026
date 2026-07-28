@@ -39,22 +39,13 @@ desktop.ini
 .env.*
 
 # Generated outputs
-outputs/
 results/
-reports/
 tmp/
 temp/
 
 # Generated analysis files
 *.csv
 *.json
-
-# Large media files
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.webm
 
 # MediaPipe / model files
 *.task
@@ -75,12 +66,3 @@ temp/
 *.run.xml
 *.synctex.gz
 *.toc
-
-# Keep example files when explicitly added
-!examples/
-!examples/**/*.csv
-!examples/**/*.json
-!examples/**/*.mp4
-!examples/**/*.pdf
-!examples/**/*.png
-!examples/**/*.jpg
