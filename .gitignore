@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Package / build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Local environment variables
+.env
+.env.*
+
+# Generated outputs
+outputs/
+results/
+reports/
+tmp/
+temp/
+
+# Generated analysis files
+*.csv
+*.json
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# MediaPipe / model files
+*.task
+*.tflite
+*.onnx
+*.pth
+*.pt
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Keep example files when explicitly added
+!examples/
+!examples/**/*.csv
+!examples/**/*.json
+!examples/**/*.mp4
+!examples/**/*.pdf
+!examples/**/*.png
+!examples/**/*.jpg
